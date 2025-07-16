@@ -23,7 +23,7 @@ $url      = 'https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-D0047-091?'
     $data = curl_exec($ch);
     $data = json_decode($data, true);
     curl_close($ch);
-    echo '<pre>';
+    echo '<pre>'
     var_dump($data);
     echo '</pre>';
 
